@@ -14,16 +14,8 @@ export default function SkeletonIcon({
             <stop offset="0%" stopColor="gray">
               <animate
                 attributeName="stop-color"
-                values="gray;lightgray"
-                dur="1s"
-                repeatCount="indefinite"
-              ></animate>
-            </stop>
-            <stop offset="50%" stopColor="lightgray">
-              <animate
-                attributeName="stop-color"
-                values="lightgray;gray"
-                dur="1s"
+                values="gray;lightgray;gray"
+                dur="3s"
                 repeatCount="indefinite"
               ></animate>
             </stop>

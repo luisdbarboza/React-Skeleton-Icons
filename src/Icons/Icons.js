@@ -1,4 +1,5 @@
 import TreeIcon from "./TreeIcon";
 import AlgorithmIcon from "./AlgorithmIcon";
+import WhatsAppIcon from "./WhatsAppIcon";
 
-export { TreeIcon, AlgorithmIcon };
+export { TreeIcon, AlgorithmIcon, WhatsAppIcon };

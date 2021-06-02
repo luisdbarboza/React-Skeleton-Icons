@@ -1,5 +1,5 @@
 import SkeletonIcon from "./components/SkeletonIcon";
-import { AlgorithmIcon, TreeIcon } from "./Icons/Icons";
+import { AlgorithmIcon, TreeIcon, WhatsAppIcon } from "./Icons/Icons";
 import ReactDOM from "react-dom";
 import "./index.scss";
 
@@ -10,12 +10,18 @@ const App = () => {
       <div className="icons-wrapper">
         <SkeletonIcon
           icon={AlgorithmIcon}
-          loading={true}
+          loading={true} //Efecto de carga
           width="100px"
           height="100px"
         />
         <SkeletonIcon
           icon={TreeIcon}
+          loading={true}
+          width="100px"
+          height="100px"
+        />
+        <SkeletonIcon
+          icon={WhatsAppIcon}
           loading={true}
           width="100px"
           height="100px"
