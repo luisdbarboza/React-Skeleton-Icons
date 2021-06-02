@@ -1,14 +1,14 @@
 {
-  "name": "algothinker-front",
-  "version": "0.1.0",
-  "author": "Badillo Ricardo, Barboza Luis, Bastidas Jose",
-  "description": "App para aprender de forma visual y entretenida estructuras de datos y algoritmos",
+  "name": "skeleton-icons",
+  "version": "0.1.1",
+  "author": "Luis Barboza",
+  "description": "App demo para ejemplificar el uso del componente SkeletonIcon",
   "private": true,
+  "homepage": "https://luisdbarboza.github.io/React-Skeleton-Icons",
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "classnames": "^2.3.1",
     "gh-pages": "^3.2.0",
     "node-sass": "^6.0.0",
     "react": "^17.0.2",
@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
