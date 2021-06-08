@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/React-Skeleton-Icons/static/css/main.5ae7ebfb.chunk.css",
-    "main.js": "/React-Skeleton-Icons/static/js/main.1a8c6160.chunk.js",
-    "main.js.map": "/React-Skeleton-Icons/static/js/main.1a8c6160.chunk.js.map",
+    "main.css": "/React-Skeleton-Icons/static/css/main.5f12d919.chunk.css",
+    "main.js": "/React-Skeleton-Icons/static/js/main.57f9e3bf.chunk.js",
+    "main.js.map": "/React-Skeleton-Icons/static/js/main.57f9e3bf.chunk.js.map",
     "runtime-main.js": "/React-Skeleton-Icons/static/js/runtime-main.670a36d2.js",
     "runtime-main.js.map": "/React-Skeleton-Icons/static/js/runtime-main.670a36d2.js.map",
-    "static/js/2.c02491c6.chunk.js": "/React-Skeleton-Icons/static/js/2.c02491c6.chunk.js",
-    "static/js/2.c02491c6.chunk.js.map": "/React-Skeleton-Icons/static/js/2.c02491c6.chunk.js.map",
+    "static/js/2.b6969361.chunk.js": "/React-Skeleton-Icons/static/js/2.b6969361.chunk.js",
+    "static/js/2.b6969361.chunk.js.map": "/React-Skeleton-Icons/static/js/2.b6969361.chunk.js.map",
     "index.html": "/React-Skeleton-Icons/index.html",
-    "static/css/main.5ae7ebfb.chunk.css.map": "/React-Skeleton-Icons/static/css/main.5ae7ebfb.chunk.css.map",
-    "static/js/2.c02491c6.chunk.js.LICENSE.txt": "/React-Skeleton-Icons/static/js/2.c02491c6.chunk.js.LICENSE.txt"
+    "static/css/main.5f12d919.chunk.css.map": "/React-Skeleton-Icons/static/css/main.5f12d919.chunk.css.map",
+    "static/js/2.b6969361.chunk.js.LICENSE.txt": "/React-Skeleton-Icons/static/js/2.b6969361.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.670a36d2.js",
-    "static/js/2.c02491c6.chunk.js",
-    "static/css/main.5ae7ebfb.chunk.css",
-    "static/js/main.1a8c6160.chunk.js"
+    "static/js/2.b6969361.chunk.js",
+    "static/css/main.5f12d919.chunk.css",
+    "static/js/main.57f9e3bf.chunk.js"
   ]
 }
