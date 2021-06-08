@@ -8,7 +8,7 @@ const App = () => {
     <div className="app-wrapper">
       <h1>SKELETON ICONS</h1>
       <div className="icons-wrapper">
-        <SkeletonIcon
+        {/* <SkeletonIcon
           icon={AlgorithmIcon}
           loading={true} //Efecto de carga
           width="100px"
@@ -19,7 +19,7 @@ const App = () => {
           loading={true}
           width="100px"
           height="100px"
-        />
+        /> */}
         <SkeletonIcon
           icon={WhatsAppIcon}
           loading={true}

@@ -1,29 +1,23 @@
 import React from "react";
+import classes from "./SkeletonIcon.module.css";
 
 export default function SkeletonIcon({
   icon: Icon,
   width = "70px",
   height = "70px",
   loading = true,
+  duration = 3,
 }) {
   if (loading) {
     return (
-      <svg width={width} height={height}>
-        <defs>
-          <linearGradient id="bg">
-            <stop offset="0%" stopColor="gray">
-              <animate
-                attributeName="stop-color"
-                values="gray;lightgray;gray"
-                dur="3s"
-                repeatCount="indefinite"
-              ></animate>
-            </stop>
-          </linearGradient>
-        </defs>
-
-        <Icon fill="url(#bg)" />
-      </svg>
+      <div className={classes.graphic}>
+        <span>
+          <svg width={width} height={height}>
+            <Icon />
+          </svg>
+          <div className={classes.afterElement} />
+        </span>
+      </div>
     );
   } else {
     return (

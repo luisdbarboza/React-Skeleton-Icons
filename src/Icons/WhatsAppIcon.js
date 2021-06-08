@@ -1,7 +1,7 @@
 const WhatsAppIcon = ({ fill }) => {
   return (
     <svg
-      fill={fill}
+      // fill={fill}
       viewBox="-23 -21 682 682.66669"
       xmlns="http://www.w3.org/2000/svg"
     >
